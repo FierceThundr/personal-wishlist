@@ -1,0 +1,20 @@
+{
+  "short_name":"Wishlist",
+  "name":"Wishlist Site",
+  "description":"A personal wishlist site",
+  "icons":[
+    {
+      "src":"assets/icon-192.png",
+      "type":"image/png",
+      "sizes":"192x192"
+    },
+    {
+      "src":"assets/icon-512.png",
+      "type":"image/png",
+      "sizes":"512x512"
+    }
+  ],
+  "background_color":"#111111",
+  "theme_color":"#111111",
+  "display":"fullscreen"
+}
