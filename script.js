@@ -173,7 +173,7 @@ function prepare_wishlist() {
     error = false;
     try {
       var request = new XMLHttpRequest()
-      request.open("GET","wishlist.txt",false)
+      request.open("GET","wishlist.txt?_="+new Date().getTime(),false)
       request.send()
     } catch (e) {
       error = e
